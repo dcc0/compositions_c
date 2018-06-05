@@ -1,4 +1,4 @@
-/*Порождение всех разбиений.   Generation of all partitions*/
+/*Порождение всех разбиений для композиций.   Generation of all partitions for compositions*/
 #include <stdio.h>
 #include <string.h>
 int  permute (int  * a) {
