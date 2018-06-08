@@ -24,7 +24,7 @@
                 }
             }
         }
-	    
+
         /*Here we reverse an array to stop the alorithm later.
          *Перевернем массив, чтобы остановить его позже в цикле*/
         i = x - 1;
@@ -71,6 +71,9 @@ int main(int argc, char * argv[]) {
 
     int i = 0;
     int j = 0;
+    int n = 0;
+    int x = 0; 		/*Number of objects in array A (at the moment).
+					Число объектов (в текущий момент) в массиве А*/
     int sum = 0;
     int first_elem = 0;
     int min_elem = 0;
@@ -94,13 +97,11 @@ int main(int argc, char * argv[]) {
     a[j] = 0;
 
 
-    int n = 0;
+
     /*Initial number of objects in array A.
        Число объектов (первоначально) в массиве А*/
     for (n; a[n] != 0; n++);
-    /*Number of objects in array A (at the moment).
-    Число объектов (в текущий момент) в массиве А*/
-    int x = 0;
+
 
     while (1) {
         /*Обнулим переменную. Unset min_elem*/
