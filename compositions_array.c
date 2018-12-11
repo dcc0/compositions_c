@@ -1,3 +1,4 @@
+/*Алгоритм порождения всех композиций*/
 #include <stdio.h>
 #include <stdlib.h>
 
